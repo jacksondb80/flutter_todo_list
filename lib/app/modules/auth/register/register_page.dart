@@ -38,7 +38,7 @@ class _RegisterPageState extends State<RegisterPage> {
       context: context,
       successCallback: (notifier, listenerInstance) {
         listenerInstance.dispose();
-        Navigator.of(context).pop();
+        //Navigator.of(context).pop();
       },
       //Opcional
       // errorCallback: (notifier, listenerInstance) {
